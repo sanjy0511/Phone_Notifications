@@ -18,7 +18,7 @@ function sendNotification() {
     count++;
     bot.sendMessage(
       ChatId,
-      `Hello Sanjay!  Time to Upload Reels (${count}/${repeat})`
+      `Hii Sanjay!  Time to Upload Reels (${count}/${repeat})`
     );
 
     if (count >= repeat) {
