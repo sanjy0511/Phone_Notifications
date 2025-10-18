@@ -6,8 +6,8 @@ dotenv.config();
 
 const token = process.env.TOKEN!;
 const ChatId = process.env.CHAT_ID!;
-const repeat = 5; // total messages
-const intervalMs = 2000; // 2 seconds
+const repeat = 5;
+const intervalMs = 2000;
 
 const bot = new TelegramBot(token, { polling: true });
 
